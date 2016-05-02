@@ -25,7 +25,7 @@ $app = new Laravel\Lumen\Application(
 
 $app->withFacades();
 
-$app->register(Plcosta\Openbase\OpenSqlServiceProvider::class);
+$app->register(Plcosta\OpenBase\OpenSqlServiceProvider::class);
 
 $app->withEloquent();
 
