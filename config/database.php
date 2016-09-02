@@ -4,7 +4,7 @@ return [
 
     'fetch' => PDO::FETCH_CLASS,
 
-    'default' => 'pgsql',
+    'default' => 'openbase',
 
     'connections' => [
 
